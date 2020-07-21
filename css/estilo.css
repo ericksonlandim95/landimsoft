@@ -1,0 +1,354 @@
+
+/*======================================================Body============================================================*/
+html,body, .capa{
+    height: 100%;
+}
+
+
+
+body {
+
+    background: url("../imagens/777777777777.jpg") no-repeat;
+                background-attachment: fixed;
+               /* font-family: 'Lato','sans-serif';*/
+                overflow-x: hidden;
+}
+
+
+/*===============================================Barra de Navegação=====================================================*/
+
+.img-logo{
+    height: 40px;
+    width: 150px;
+    display: block;
+   background: url(../imagens/landimsoft_logo_oficial.svg) no-repeat;
+   background-size: contain;  
+    color: transparent;  
+}
+
+
+
+
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0,0,.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 0px 15px; 
+      
+    }
+
+
+.divisor{
+    height: 16px;
+    width: 1px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
+    color: #D7562E;
+    background: none;
+}
+
+/*================================================Imagem de Capa========================================================*/
+.capa{ 
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    
+    text-align: center;
+    color:white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.texto-capa h1{
+    font-size: 40px;
+   font-weight: 300;
+    letter-spacing: -0.05em;
+    color:white;
+    font-family: 'Poppins', 'sans-serif';
+    text-transform: uppercase;
+}
+
+.texto-capa h2{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Poppins', 'sans-serif';
+
+}
+
+.texto-capa p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato', 'sans-serif';
+
+}
+
+
+/*==============================================Section serviços========================================================*/
+#servicos{
+    margin-top: 50px;
+    background:whitesmoke;
+    padding: 40px 0px 10px 0px;
+    border-radius: 5px;
+
+}
+
+#servicos p{
+    color:black;
+    text-align: center;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 15px;
+
+ 
+}
+
+ #servicos h2, #servicos h3{
+    text-align: center;
+    color:#0072DD;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+#servicos h1{
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+
+
+
+
+
+
+
+/*===============================================Section Portfolio======================================================*/
+#portfolio h1{
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+    color: white;
+}
+
+
+#portfolio{
+    background:rgba(0, 0,0, .6);
+    padding: 40px 0px 10px 0px;
+    
+}
+
+#portfolio p{
+    color:white;
+    text-align: center;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.project-card {
+    margin-left: 0;
+    margin-bottom: 40px;
+    transition: box-shadow .3s;
+    margin-right: 0;
+    border: solid 2px #f1f1f1;
+    background:#0072DD;   
+}
+
+
+
+.project-card   .project-card__img {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.project-card  .project-card__img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.project-card  .project-card__info {
+   /* border: 1px solid #f1f1f1;*/
+    padding: 50px 50px 40px 30px;
+}
+
+.project-card  .project-card__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Poppins''sans-serif';
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+    color:white;
+}
+
+.project-card  .project-card__description {
+    font-size: 16px;
+    /*line-height: 24px;*/
+    margin-bottom: 15px;
+    font-family:'Lato','sans-serif';
+    text-align: justify;
+    
+}
+
+.project-card  .project-card__stack {
+    font-family:'Poppins','sans-serif';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+   margin-bottom: 5px;
+   
+}
+
+
+
+.project-card  .project-card__link {
+    margin-top: 55px;
+    font-family:'Poppins','sans-serif';
+    font-size: 14px;
+    line-height: 20px;
+    float: right;
+    color:white;
+}
+
+.project-card:hover {
+    box-shadow: 0 1px 31px rgba(0, 0, 0, .09);
+    cursor: pointer;
+}
+
+.tags li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .14);
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+
+
+/*======================================================Section Sobre===================================================*/
+
+#sobre h1{
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+    color: black;
+}
+
+#sobre{
+    background: whitesmoke;
+    padding: 40px 0px 10px 0px;
+}
+
+#sobre p{
+    font-family: 'Lato', 'sans-serif';
+    font-size: 16px;
+    color:black;
+    text-align: center;
+}
+
+/*=====================================================Section Contato==================================================*/
+#contato{
+    background:rgba(0, 114,221,.9);
+    padding: 40px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+#contato h1{
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+    color:white;
+}
+
+#contato h3{
+    font-family: 'Poppins', 'sans-serif';
+    color: white;
+}
+
+#contato a {
+    color: white;
+}
+
+#contato p{
+    font-family: 'Lato', 'sans-serif';
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.subt{
+    font-size: 17px;
+}
+
+.borda_contato{
+    border: solid whitesmoke 2px;
+    /*background: #0072DD;*/
+}
+
+#centrar{
+    align-items: center;
+}
+
+#contato a:hover{
+    text-decoration: underline;
+}
+
+.meios_cont{
+    color: rgb(200, 230, 200);
+}
+
+
+
+
+/*======================================================Footer/Rodapé===================================================*/
+#rodape{
+background: rgba(0, 0,0, .5);
+padding: 50px 0px 20px 0px;
+position: relative;
+
+}
+
+.item-rede-social{
+    float: right;
+}
+
+
+.direitos{
+    text-align: center;
+    margin-top: 10px;
+    color: seashell;
+}
+
+#rodape .nav a{  /*Tambem pode usar footer .nav a   */
+color: white;
+}
+
+#rodape .nav a:hover{  
+    
+    text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
+
