@@ -176,6 +176,7 @@ nav.navbar-transparente{
     object-fit: cover;
 }
 
+
 .project-card  .project-card__info {
    /* border: 1px solid #f1f1f1;*/
     padding: 50px 50px 40px 30px;
@@ -309,7 +310,7 @@ nav.navbar-transparente{
 }
 
 .meios_cont{
-    color: rgb(200, 230, 200);
+    color: white;
 }
 
 
